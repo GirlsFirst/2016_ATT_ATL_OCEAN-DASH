@@ -271,7 +271,7 @@ class Obstacle_Scroller(object):
 class player (pygame.sprite.Sprite):
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
-        self.image = pygame.image.load ("squirtle3.png")
+        self.image = pygame.image.load ("squirtle.png")
         self.rect = self.image.get_rect ()
         self.rect.x=SCREEN_WIDTH/2-self.rect.width/2
         self.rect.y = SCREEN_HEIGHT-100
